@@ -1,0 +1,29 @@
+{
+    "experiments": [{
+            "name": "container_kill",
+            "url": "https://raw.githubusercontent.com/litmuschaos/litmus/master/experiments/generic/container_kill/container_kill_k8s_job.yml",
+            "description": "Chaos to kill container"
+        },
+        {
+            "name": "cpu_hog",
+            "url": "https://raw.githubusercontent.com/litmuschaos/litmus/master/experiments/generic/cpu_hog/cpu_hog_ansible_logic.yml",
+            "description": "Chaos to spike the cpu"
+        },
+        {
+            "name": "pod_delete",
+            "url": "https://hub.litmuschaos.io/api/chaos?file=charts/generic/pod-delete/experiment.yaml",
+            "description": "Chaos to delete pod"
+        },
+        {
+            "name": "pod_network_latency",
+            "url": "https://raw.githubusercontent.com/litmuschaos/litmus/master/experiments/generic/pod_network_latency/pod_network_latency_k8s_job.yml",
+            "description": "Chaos to inject network latency"
+        },
+        {
+            "name": "pod_network_loss",
+            "url": "https://raw.githubusercontent.com/litmuschaos/litmus/master/experiments/generic/pod_network_loss/pod_network_loss_k8s_job.yml",
+            "description": "Chaos to inject network loss"
+        }
+    ],
+    "version": "0.7.0"
+}
